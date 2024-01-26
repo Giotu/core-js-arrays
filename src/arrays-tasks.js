@@ -88,7 +88,7 @@ function findAllOccurrences(arr, item) {
  *    removeFalsyValues([ false, 0, NaN, '', undefined ]) => [ ]
  */
 function removeFalsyValues(arr) {
-  return arr.filter((element) => !!element === true);
+  return arr.filter((element) => !!element);
 }
 
 /**
